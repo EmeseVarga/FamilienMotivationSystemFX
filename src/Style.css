@@ -1,0 +1,161 @@
+/*set the buttons style */
+
+.button {
+		-fx-font-family:"Kristen ITC";
+		-fx-font-size: 20;
+		-fx-text-fill: white;
+		-fx-background-color: linear-gradient(#61a2b1, #2A5058);
+		-fx-effect: dropshadow( gaussian , rgba(0.0,0.0,0.0,0.9) , 5.0, 0.0 , 0.0 , 1.0 );
+		}	
+		
+#buttonBig {
+		-fx-font-family:"Kristen ITC";
+		-fx-font-size: 30;
+		-fx-text-fill: white;
+		-fx-background-color: linear-gradient(#61a2b1, #2A5058);
+		-fx-effect: dropshadow( gaussian , rgba(0.0,0.0,0.0,0.9) , 5.0, 0.0 , 0.0 , 1.0 );
+		}			
+		
+.button:hover {
+				-fx-background-color: #d4dcdd;		
+				-fx-color: #eef5f7;
+				-fx-text-fill: #2A5058;
+				}
+
+#buttonBig:hover {
+				-fx-background-color: #d4dcdd;		
+				-fx-color: #eef5f7;
+				-fx-text-fill: #2A5058;
+				}
+
+/*set labels style */
+.label {
+		-fx-font-family:"Kristen ITC";
+		-fx-font-size: 20;
+		-fx-text-fill: #2A5058;
+}
+
+#labelBig {
+		-fx-font-family:"Kristen ITC";
+		-fx-font-size: 25;
+		-fx-text-fill: #2A5058;
+}
+
+
+
+/*set titels (Labels) style */
+#Titels{
+		-fx-font-family:"Jokerman";
+		-fx-font-size: 50.0;
+		-fx-text-fill: #2A5058;
+}
+
+#field{
+		-fx-font-family:"Kristen ITC";
+		-fx-font-size: 15.0;
+}
+
+#vbox{
+	-fx-background-color: lightblue;
+}
+
+/*Set details of challange Button as progress par */
+#Button0 { 
+	-fx-background-color: linear-gradient(to right, #61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1);
+}
+#Button10 {
+	-fx-background-color: linear-gradient(to right, #2A5058,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1);
+}
+#Button20 { 
+	-fx-background-color: linear-gradient(to right, #2A5058,#2A5058,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1);
+}
+#Button30 { 
+	-fx-background-color: linear-gradient(to right, #2A5058,#2A5058,#2A5058,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1);
+}
+#Button40 { 
+	-fx-background-color: linear-gradient(to right, #2A5058,#2A5058,#2A5058,#2A5058,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1);
+}
+#Button50 { 
+	-fx-background-color: linear-gradient(to right, #2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1);
+}
+#Button60 { 
+	-fx-background-color: linear-gradient(to right, #2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#61a2b1,#61a2b1,#61a2b1,#61a2b1);
+}
+#Button70 { 
+	-fx-background-color: linear-gradient(to right, #2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#61a2b1,#61a2b1,#61a2b1);
+}
+#Button80 { 
+	-fx-background-color: linear-gradient(to right, #2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#61a2b1,#61a2b1);
+}
+#Button90 { 
+	-fx-background-color: linear-gradient(to right, #2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#61a2b1);
+}
+#Button100 { 
+	-fx-background-color: linear-gradient(to right, #2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058);
+}
+
+#Button0:hover {
+	-fx-background-color: linear-gradient(to right, #2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058);	
+	-fx-color: #eef5f7;
+	-fx-text-fill: white;
+}
+
+#Button10:hover {
+	-fx-background-color: linear-gradient(to right, #61a2b1,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058);		
+	-fx-color: #eef5f7;
+	-fx-text-fill: white;
+}
+
+#Button20:hover {
+	-fx-background-color: linear-gradient(to right, #61a2b1,#61a2b1,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058);		
+	-fx-color: #eef5f7;
+	-fx-text-fill: white;
+}
+
+#Button30:hover {
+	-fx-background-color: linear-gradient(to right, #61a2b1,#61a2b1,#61a2b1,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058);		
+	-fx-color: #eef5f7;
+	-fx-text-fill: white;
+}
+
+#Button40:hover {
+	-fx-background-color: linear-gradient(to right, #61a2b1,#61a2b1,#61a2b1,#61a2b1,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058);		
+	-fx-color: #eef5f7;
+	-fx-text-fill: white;
+}
+
+#Button50:hover {
+	-fx-background-color: linear-gradient(to right, #61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#2A5058,#2A5058,#2A5058,#2A5058,#2A5058);		
+	-fx-color: #eef5f7;
+	-fx-text-fill: white;
+}
+
+#Button60:hover {
+	-fx-background-color: linear-gradient(to right, #61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#2A5058,#2A5058,#2A5058,#2A5058);		
+	-fx-color: #eef5f7;
+	-fx-text-fill: white;
+}
+
+#Button70:hover {
+	-fx-background-color: linear-gradient(to right, #61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#2A5058,#2A5058,#2A5058);		
+	-fx-color: #eef5f7;
+	-fx-text-fill: white;
+}
+
+#Button80:hover {
+	-fx-background-color: linear-gradient(to right, #61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#2A5058,#2A5058);		
+	-fx-color: #eef5f7;
+	-fx-text-fill: white;
+}
+
+#Button90:hover {
+	-fx-background-color: linear-gradient(to right, #61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#2A5058);		
+	-fx-color: #eef5f7;
+	-fx-text-fill: white;
+}
+
+#Button100:hover {
+	-fx-background-color: linear-gradient(to right, #61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1,#61a2b1);		
+	-fx-color: #eef5f7;
+	-fx-text-fill: white;
+}
